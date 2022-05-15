@@ -13,7 +13,12 @@ class SpringFirstDemoApplicationTests {
 	String port;
 
 	@Autowired
+	SpringFirstDemoApplication springFirstDemoApplication;
+
+	@Autowired
 	RestTemplate restTemplate;
+
+
 
 	@Test
 	void contextLoads() {
