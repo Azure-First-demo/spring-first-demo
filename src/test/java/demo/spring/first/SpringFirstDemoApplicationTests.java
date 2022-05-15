@@ -22,8 +22,7 @@ class SpringFirstDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertEquals("Hello world",this.restTemplate.getForObject("http://localhost:" + port + "/",
-				String.class));
+		Assertions.assertEquals("Hello world",springFirstDemoApplication.defaultPage());
 	}
 
 }
